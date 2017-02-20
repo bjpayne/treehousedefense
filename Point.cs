@@ -10,7 +10,7 @@ class Point
         public Point(int xCoordinate, int yCoordinate)
         {
             if (xCoordinate < 0 || yCoordinate < 0) {
-                throw new System.ArgumentException("X and Y coordinates must be greater than or equal to 0");
+                throw new OutOfBoundsException("X and Y coordinates must be greater than or equal to 0");
             }
 
             this.xCoordinate = xCoordinate;

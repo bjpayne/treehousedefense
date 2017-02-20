@@ -6,14 +6,14 @@ namespace TreehouseDefense
     {
         public static void Main()
         {
-            int mapHeight = 5;
+            const int MAP_HEIGHT = 5;
 
-            int mapWidth = 8;
+            const int MAP_WIDHT = 8;
             
-            Map map = new Map(mapHeight, mapWidth);
+            Map map = new Map(MAP_HEIGHT, MAP_WIDHT);
 
             try {
-                MapLocation mapLocation = new MapLocation(7, 6, map);
+                MapLocation mapLocation = new MapLocation(0, 0, map);
 
                 int distance = mapLocation.distanceTo(mapLocation);
             } catch (Exception e) {

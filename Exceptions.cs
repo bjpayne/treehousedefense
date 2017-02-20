@@ -6,25 +6,21 @@ namespace TreehouseDefense
     {
         public TreehouseDefenseException() : base()
         {
-
         }
 
         public TreehouseDefenseException(String message) : base(message)
         {
-
         }
     }
 
-    class OutOfBoundException : TreehouseDefenseException
+    class OutOfBoundsException : TreehouseDefenseException
     {
-        public OutOfBoundException() : base()
+        public OutOfBoundsException() : base()
         {
-
         }
 
-        public OutOfBoundException(String message) : base(message)
+        public OutOfBoundsException(String message) : base(message)
         {
-
         }
     }
 }
