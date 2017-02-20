@@ -18,7 +18,7 @@ class Point
             this.yCoordinate = yCoordinate;
         }
 
-        public int calculateDistance(int xCoordinate, int yCoordinate)
+        public int distanceTo(int xCoordinate, int yCoordinate)
         {
             double xDiff = Math.Pow(this.xCoordinate - xCoordinate, 2);
 
@@ -27,6 +27,11 @@ class Point
             double distance = Math.Sqrt(xDiff + yDiff);
 
             return (int) distance;
+        }
+
+        public int distanceTo(Point point)
+        {
+            return this.distanceTo(point.xCoordinate, point.yCoordinate);
         }
     }
 }

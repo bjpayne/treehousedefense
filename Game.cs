@@ -10,9 +10,9 @@ namespace TreehouseDefense
             
             Map map = new Map(mapHeight, mapWidth);
 
-            Point point = new Point(4, 6);
+            MapLocation point = new MapLocation(4, 6);
 
-            int distance = point.calculateDistance(3, 4);
+            int distance = point.distanceTo(point);
         }
     }
 }
