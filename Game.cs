@@ -1,3 +1,5 @@
+using System;
+
 namespace TreehouseDefense
 {
     class Game
@@ -10,9 +12,13 @@ namespace TreehouseDefense
             
             Map map = new Map(mapHeight, mapWidth);
 
-            MapLocation point = new MapLocation(4, 6);
+            try {
+                MapLocation mapLocation = new MapLocation(7, 6, map);
 
-            int distance = point.distanceTo(point);
+                int distance = mapLocation.distanceTo(mapLocation);
+            } catch (Exception e) {
+                System.Console.WriteLine(e.Message);
+            }
         }
     }
 }

@@ -87,6 +87,7 @@
 --reference:/Users/bj/.nuget/packages/System.Threading.Timer/4.3.0/ref/netstandard1.2/System.Threading.Timer.dll
 --reference:/Users/bj/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/Users/bj/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll
+/Users/bj/Apps/Csharp/TreehouseDefense/Exceptions.cs
 /Users/bj/Apps/Csharp/TreehouseDefense/Game.cs
 /Users/bj/Apps/Csharp/TreehouseDefense/Map.cs
 /Users/bj/Apps/Csharp/TreehouseDefense/MapLocation.cs
